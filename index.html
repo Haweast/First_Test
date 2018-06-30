@@ -27,11 +27,15 @@ a:link, a:visited, a:hover, a:active {
     padding: 5px 5px;
     text-decoration: none;
     }
-    
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
     }
+    
 /* Create two columns/boxes that floats next to each other */
 nav {
     float: right;
@@ -40,6 +44,8 @@ nav {
     padding: 40px;
     list-style-type: none;
     font-family:Georgia;
+    height: 100%
+    overflow: auto;
     }
 /*list-style-type won't work in nav*/
 nav ul {
