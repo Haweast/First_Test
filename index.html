@@ -27,11 +27,15 @@ a:link, a:visited, a:hover, a:active {
     padding: 5px 5px;
     text-decoration: none;
     }
+    
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    }
 /* Create two columns/boxes that floats next to each other */
 nav {
     float: right;
     width: 30%;
-    height:30%
     background-color: #3C4F76;
     padding: 40px;
     list-style-type: none;
