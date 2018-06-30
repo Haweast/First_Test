@@ -22,7 +22,7 @@ header {
     color: white;
     }
 /*Style for links on right side*/
-a:link, a:visited, a:hover, a:active {
+a:link, a:visited, a:hover{
     color: white;
     padding: 5px 5px;
     text-decoration: none;
@@ -30,7 +30,7 @@ a:link, a:visited, a:hover, a:active {
 li a.active {
     background-color: #4CAF50;
     color: white;
-}
+    }
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
@@ -52,33 +52,31 @@ nav ul {
     list-style-type: none;
      padding: 5px;
     }
-}
 article {
     float: left
     padding: 30px;
     width: 70%;
     background-color: #D3D0CB;
-}
+    }
 /* Clear floats after the columns */
 section:after {
     content: "";
     display: table;
     clear: both;
-}
+    }
 /* Style the footer */
 footer {
     background-color: #777;
     padding: 10px;
     text-align: center;
     color: white;
-}
+    }
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
     nav, article {
         width: 100%;
         height: auto;
     }
-}
 </style>
     
 <body>
