@@ -14,13 +14,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     }
 /* Style the header */
-header {
+header_left {
     background-color: #6E8898;
     padding: 0px;
-    text-align: center;
+    text-align: right;
     font-size: 35px;
     color: black;
     overflow: auto;
+    position: left;
+    }
+header_right {
+    background-color: #6E8898;
+    padding: 0px;
+    text-align: left;
+    font-size: 35px;
+    color: black;
+    overflow: auto;
+    position: right;
     }
     
 img.StefanFace {
@@ -96,9 +106,12 @@ footer {
 </style>
     
 <body>
-    <header>
-        <h3><img class="StefanFace" src="https://github.com/Haweast/Home/blob/gh-pages/Pictures/StefanFace2.png?raw=true" alt="Stefan Photo" align="middle"> Hi, I'm</h3><h2><<font color="#D3D0CB"><strong> Stefan Hawea</strong></font></h2>
-    </header>
+    <header_right>
+        <img class="StefanFace" src="https://github.com/Haweast/Home/blob/gh-pages/Pictures/StefanFace2.png?raw=true" alt="Stefan Photo" align="middle"> 
+    </header_right>
+    <header_left>
+        <h3>Hi, I'm</h3><h2><font color="#D3D0CB"><strong> Stefan Hawea</strong></font></h2>
+    </header_left>
 
 <section>
   <nav>
