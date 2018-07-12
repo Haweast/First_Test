@@ -1,2 +1,4 @@
-# First_Test
-Making a Website (Noob)
+# First_Website
+Making a Website (Home Page)
+Haweast.ga
+index.html in "gh-pages"
